@@ -43,7 +43,7 @@ $ tar zxf RPi.GPIO-0.5.6.tar.gz
 $ cd RPi.GPIO-0.5.6
 $ sudo python setup.py install
 ```
-##### 4. Configure database for storing actions
+##### 5. Configure database for storing actions
 
 Because RPi has low performance for running e.g. phpmyadmin, it's better solution to manage database under command line.
 
@@ -96,12 +96,12 @@ Save this structure to a mysql.sql file and import it to a database.
 mysql -u pi -p rpicard < mysql.sql
 ``` 
 
-##### 5. Run the app
+##### 6. Run the app
 
 ``` $ python main.py ```
 
 
-##### 5. Logs example
+##### 7. Logs example
 
 ``` 
 11/09/2014 06:53:40 AM Arrival for: 31191254130220
