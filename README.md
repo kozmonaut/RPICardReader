@@ -71,22 +71,22 @@ Import database structure.
 
 ``` 
 CREATE TABLE `cards` (
- `cardId` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+ `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
  `userId` VARCHAR(50) DEFAULT NULL,
  `tagId` BIGINT(18) UNSIGNED NOT NULL,
  `permission` INT(10) NOT NULL,
  `added` VARCHAR(50) NOT NULL,
- PRIMARY KEY (`cardId`),
- KEY `ix_cardId` (`cardId`)
+ PRIMARY KEY (`id`),
+ KEY `ix_cardId` (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
  
 CREATE TABLE `readings` (
-`readingsId` BIGINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+`id` BIGINT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
 `tagId` BIGINT(18) UNSIGNED NOT NULL,
 `time` VARCHAR(50) DEFAULT NULL,
 `action` INT(2) UNSIGNED NOT NULL,
-PRIMARY KEY (`readingsId`),
-KEY `ix_readingsId` (`readingsId`)
+PRIMARY KEY (`id`),
+KEY `ix_id` (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=61 DEFAULT CHARSET=latin1;
 ``` 
 
