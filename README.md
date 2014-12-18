@@ -2,7 +2,7 @@ RPICardReader
 =============
 Card Reader will provide interface in which it will send message when there is an action from users side. All these actions will be stored in database, and later can be used for displaying data in some web application.
 
-#### Installation steps:**
+#### Installation steps:
 #####1. Connect RPI with your RFID (here is used MIFARE MF522-AN)
 Look at the pins positions and do the wiring. Disconnect RPi before you start to connect the cables.
 
